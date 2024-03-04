@@ -1,0 +1,700 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 19px 20px;
+    background-color: rgb(20, 19, 19);
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    /* border-bottom:1px solid rgb(182, 48, 248) ; */
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+ }
+
+ ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:19px ;
+    margin-inline: 22px;
+ }
+
+ nav ul li a:hover{
+    /* color: rgb(182, 48, 248); */
+    border-bottom: 2px solid  rgb(182, 48, 248);
+    /* border: 1px solid white; */
+ }
+
+ #bar{
+    display: none;
+ }
+
+ .logo{
+    font-size: 17px;
+ }
+ .logo span{
+    color: rgb(182, 48, 248);
+ }
+ hr {
+    border: 0;
+    background:rgb(184, 45, 253);
+    height: 1.1px;
+    margin-top: 60px;
+    margin-bottom: -50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+   
+}
+
+.mainText {
+    /* margin-top: 60px; */
+margin-left: 30px;
+  
+    
+}
+
+.mainText h3 , .mainText h1, .mainText h4 {
+        margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+.mainText h1{
+color: rgb(182, 48, 248);
+}
+
+.profe{
+    color: rgb(182, 48, 248);
+  
+}
+
+.main img {
+    width: 450px;
+     margin-top: 50px;
+     border: 2px solid  rgb(182, 48, 248) ;
+     border-radius: 20px;
+}
+
+/* .mainText button{
+    width: 140px;
+    height: 35px;
+    background-color: rgb(182, 48, 248) ;
+    font-size: 19px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+    font-weight: 200;
+}
+
+button:hover {
+border: 1px solid white;
+background-color: transparent;
+cursor: pointer;
+} */
+
+.head{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+}
+
+.head span {
+    color: rgb(182, 48, 248);
+}
+
+/* social icons start */
+
+.socials {
+    position: relative;
+    margin-top: 1rem;
+   
+}
+
+.socials .social-icons {
+    margin-left: -20px;
+    list-style: none;
+}
+
+.socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px
+}
+
+.social-icons a {
+    font-size: 2rem;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    line-height: 44px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: starts;
+    margin-right: 8px;
+    border-radius: 100%;
+    /* -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear */
+}
+.social-icons a:hover {
+      color: rgb(182, 48, 248);
+}
+
+
+.aboutResume{
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.about{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.about img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1.5px solid  rgb(188, 92, 236);
+    margin-inline: 55px;
+}
+
+.aboutText h2{
+    font-size: 30
+    px;
+}
+
+.aboutText h2 span {
+    color:rgb(188, 92, 236) ;
+}
+.aboutText h5{
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.aboutText p{
+    margin-top:20px ;
+    word-spacing: 1.5px;
+    
+}
+.resumebtn {
+    width: 100px;
+    top: -30px;
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+
+.resumebtn .btn {
+    padding: 0.8rem 0.8rem;
+    border-radius: .5em;
+    color: #fff;
+    background:rgb(139, 51, 184);
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+     margin-top: -40px;
+}
+
+.resumebtn .btn:hover {
+    background: rgb(74, 4, 109);
+}
+
+
+.education{
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.myeducation{
+    /* margin-left: 20%; */
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+.educard {
+    width: 900px;
+    height: 110px;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.educard h1{
+    margin-bottom: 8px; 
+    border-bottom: 0.5px solid rgb(212, 138, 250);
+}
+.educard h3{
+    margin: 13px 0;
+    color:rgb(204, 119, 247) ;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectCard{
+width: 300px;
+/* height:310 ; */
+padding: 22px;
+background-color: rgb(28, 28, 28);
+margin-inline:15px ;
+border-radius: 10px;
+margin-top: 10px;
+}
+.projectCard img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 19px;
+    border-bottom: 1px solid rgb(165, 35, 230); 
+    border-radius: 20px;
+}
+.projectCard p{
+    margin-top: 20px;
+
+}
+
+.projectCard a {
+    text-decoration: none;
+}
+.projectCard h3 {
+    color: white;
+    padding: 6px 12px;
+    background-color:rgb(165, 35, 230) ;
+}
+
+.skillContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    
+    
+}
+/* .secondCol{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   
+} */
+
+.info{
+    width: 400px;
+    padding: 1rem;
+    border-bottom: 0.5px solid white ;
+    /* margin-inline: 500px; */
+    font-size: 25px;
+    display: flex;
+    flex-wrap: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+
+.info img {
+    width: 50px;
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+
+
+/* Contact Me  */
+.contact{
+    background-color: rgb(28, 28, 28);
+    min-height: 60vh;
+    
+    
+}
+
+.contact .container {
+    display: flex;
+    justify-content: center;
+   
+    /* max-width: 1050px; */
+    width:100%;
+    /* background: #fff; */
+    /* border-radius: 1.5rem; */
+    /* margin: 0 5rem; */
+    /* margin-bottom: 50px; */
+    
+}
+
+.contact .container .content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.contact .content form {
+    width: 100%;
+    /* margin-right: .5rem;*/
+    /* margin-left: 1%;  */
+   
+}
+
+form .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactForm .field {
+    height: 40px;
+    display: flex;
+    
+    margin: 0.8rem;
+    width: 100%;
+    border: 1px solid rgb(188, 92, 236);
+}
+
+form .field input , form .message textarea{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 0 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    
+    border: 1px solid rgb(188, 92, 236);
+    background: transparent;
+    color: white;
+}
+
+
+.field input::placeholder,
+.message textarea::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+form .message {
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+form .message textarea {
+    min-height: 100px;
+    max-height: 230px;
+    width: 100%;
+   padding: 12px 20px 0 10px;
+   border: 2px solid rgb(188, 92, 236);
+}
+
+form .buttonArea {
+    display: flex;
+    /* float: right; */
+    /* flex-direction: row-reverse; */
+}
+
+.buttonArea button {
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: rgb(188, 92, 236) ;
+    
+}
+
+.buttonArea button:hover {
+    background: white;
+    color:rgb(188, 92, 236) ;
+}
+
+
+/* .contact {
+    width:400px ;
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.contact input {
+    width: 80%;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin-top: 20px ;
+    display: flex;
+   margin-left: 5px;
+}
+
+.contact button {
+    width: 90px;
+    height: 30px;
+    background-color:rgb(165, 35, 230) ;
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+} */
+
+footer{
+    height: auto;
+    margin-top: 50px;
+    background-color: rgb(31, 30, 30);
+}
+footer.h1{
+    background-color: rgb(28, 28, 28);
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 20px 20px;
+    /* flex: 20rem; */
+}
+.box h3 {
+    font-size: 2rem;
+    
+    font-weight: normal;
+    border-bottom: 1px solid white;
+}
+.box h3 span {
+  color: rgb(165, 35, 230) ;
+}
+
+.box p {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #ccc;
+    padding: .1rem ;
+}
+
+.box p i {
+    padding-right: 1rem;
+    color: rgb(165, 35, 230);
+}
+.box li{
+    margin: 1rem 0px;
+    list-style: none;
+}
+
+.box li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.box .share a {
+    font-size: 1.5rem;
+    /* padding: 1rem; */
+    color: white;
+    margin-right: 1rem;
+    
+}
+
+.box a:hover {
+    color: rgb(165, 35, 230);
+}
+
+.box .share {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.box .share a {
+   
+    width: 4rem;
+    font-size: 1.7rem;
+    transition: .2s;
+    border: none;
+}
+
+footer .credit {
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    font-size: 0.9rem;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+footer .credit a{
+    color: white;
+    text-decoration: none;
+}
+footer .credit span{
+    color: rgb(165, 35, 230);
+}
+
+@media screen and (max-width:1000px){
+    .myeducation{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .educard{
+        width: 90%;
+        height: auto;
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .head h1{
+        font-size: 30px;
+    }
+    .main{
+        display: block;
+        text-align: center;
+        margin-top: 140px;
+        align-items: center;
+    }
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul{
+        display: none;
+    }
+    .showData{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        /* justify-content: end; */
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(73, 72, 72);
+        gap: 20px;
+        border-radius: 4px;
+        position: fixed;
+        top: 50px;
+        right: 3%;
+        width: 25%;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .info {
+        border: none;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        font-size: 90%;
+        border-bottom: 0.5px solid white;
+    }
+    
+    
+    .info img{
+        width: 10%;
+        height: 5%;
+       
+    }
+}
+
+@media screen and (max-width:650px){
+    .aboutme{
+        text-align: center;
+    }
+    .about {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px){
+    .mainText h1 {
+        font-size: 25px;
+    }
+    .mainText h3 {
+        font-size: 15px;
+    }
+
+    .main img {
+        width: 90%;
+    }
+
+    .content{
+        width:80 ;
+    }
+
+    .info{
+        width: 90%;
+      
+    }
+  
+}
+
+@media screen and (max-width:400px){
+    .educard{
+        width: 90%;
+        height: auto;
+        font-size: 60%;
+    }
+    .footerContainer h3{
+        font-size: 20px;
+    }
+
+    .footerContainer li p{
+        font-size: 10px;
+    }
+
+  
+}
