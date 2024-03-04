@@ -618,9 +618,9 @@ footer .credit span{
         /* justify-content: end; */
         align-items: center;
         padding: 20px;
-        background-color: rgb(73, 72, 72);
+        background-color: rgb(41, 40, 40);
         gap: 20px;
-        border-radius: 10px;
+        border-radius: 15px;
         position: fixed;
         top: 50px;
         right: 3%;
